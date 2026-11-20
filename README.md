@@ -1,12 +1,12 @@
 # NETWORKWALKSRANEETH-B084-WK3-PM1-PM2-PASSWORDCRACKING
 Password cracking with John the ripper and hash cracking tools
 
-## Project overview: 
+## 📌Project overview: 
 
 ### WK3-PM1: Password cracking with JTR(John The Ripper)
 This project focuses on cracking the password of a locked PDF (`My Locked PDF1.pdf`) using JTR(John The Ripper) and JTR Johnny.
 
-#### Steps:
+#### 🔨Steps:
 
 1. Open the below website to extract the hash from the locked PDF.
 
@@ -40,9 +40,63 @@ This project focuses on cracking the password of a locked PDF (`My Locked PDF1.p
 
    <img width="1862" height="1077" alt="Click on Start attack and password shows" src="https://github.com/user-attachments/assets/ecedd4a0-d263-4a10-88a4-911ee66d86ba" />
 
+
 8. Use the password to unlock the PDF and reveal the flag.
 
 <img width="575" height="802" alt="image" src="https://github.com/user-attachments/assets/9e71d99b-1993-4706-bebc-7003f1d81c68" />
-   
 
+
+
+
+### WK3-PM2: Password cracking with NETWORKWALKS tools
+
+#### 🔨Steps:
+
+1. Open the Hash calculator in your web browser.
+
+  <img width="1897" height="1077" alt="image" src="https://github.com/user-attachments/assets/e7af87b0-45dc-4227-b933-010c4b1d00f5" />
+
+
+2. Go to the file section highlighted in red and upload the file (`My-Locked-PDF1.pdf`). The hash will be revealed.
+
+   <img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/128ad98e-be68-45b7-87e5-b0bbc1e2b014" />
+   <img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/d1c81101-1d45-44f6-a345-2b60815a68cd" />
+
+3. Copy and save the hash into a text file. (`My-Locked-PDF1_hash.txt`)
+
+   <img width="877" height="290" alt="Hash save in txt file" src="https://github.com/user-attachments/assets/29b0bb80-657b-4b66-bd73-77a99881f320" />
+
+4. Open the Password cracker in your web browser and Copy and paste the hash from the text file into the field below.
+
+   <img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/f0195e4e-0d7c-434f-a94e-43b446751361" />
+
+
+5. Click on **Start Cracking**. The tool will start the attack and find the matching passwords. The password will be revealed as shown below.
+
+   <img width="1917" height="1077" alt="Password cracked" src="https://github.com/user-attachments/assets/8798322b-dbca-412c-a7bd-a8ac740a040f" />
+
+
+
+6. Copy the password paste it to unlock the PDF.
+
+   <img width="657" height="855" alt="image" src="https://github.com/user-attachments/assets/aea14d26-3da1-4ed8-86a6-160b47353fc1" />
+
+
+
+### ⚠️Warning:
+
+This is to be used only for educational purposes. Any misuse will result in legal action taken against you.
+
+### 🔗Resources:
+
+- https://www.onlinehashcrack.com/tools-pdf-hash-extractor.php
+- https://www.openwall.com/john/
+- https://openwall.info/wiki/john/johnny
+
+### Author:
+
+Raneeth Jayaratne
+
+### Project Information
+Instructor: Waqas Karim CCIE | Batch: B084 | Program name: Cybersecurity intern @NETWORKWALKS.
 
